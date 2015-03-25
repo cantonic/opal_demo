@@ -4,7 +4,9 @@ All branches have an additional js file `app/assets/javascripts/other_asset.js` 
 
 ## branch: variant1
 Application JS filename: `application.js`
+
 method used for requiring javascript files: `//= require` (default)
+
 Output from JavaScript console: 
 ```
 other_asset.js?body=1:1 I am not required in application.js
