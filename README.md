@@ -9,8 +9,8 @@ method used for requiring javascript files: `//= require` (default)
 
 Output from JavaScript console: 
 ```
-other_asset.js?body=1:1 I am not required in application.js
+included_asset.js?body=1:1 I am required in application.js
 runtime.js?body=1:1314 WARNING: LoadError: cannot load such file -- application
-other_asset.js?body=1:1 I am not required in application.js
-runtime.js?body=1:1314 WARNING: LoadError: cannot load such file -- other_asset
+separate_asset.js?body=1:1 I am NOT required in application.js
+runtime.js?body=1:1314 WARNING: LoadError: cannot load such file -- separate_asset
 ```
