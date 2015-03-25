@@ -25,3 +25,14 @@ Output from JavaScript console:
 included_asset.js?body=1:1 I am required in application.js
 separate_asset.js?body=1:1 I am NOT required in application.js
 ```
+
+## branch: variant3
+Application JS filename: `application.js.rb`
+
+method used for requiring javascript files: `require` (Ruby's require method)
+
+Output from JavaScript console: 
+```
+included_asset.js?body=1:1 I am required in application.js
+separate_asset.js?body=1:1 I am NOT required in application.js
+```
