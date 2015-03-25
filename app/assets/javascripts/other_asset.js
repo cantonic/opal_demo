@@ -1,0 +1,1 @@
+console.log('I am not required in application.js');
