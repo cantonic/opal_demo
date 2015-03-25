@@ -1,0 +1,1 @@
+puts 'I am NOT required in application.js'
